@@ -1,1 +1,82 @@
 /* Infographic style */
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+    font-family: 'Poiret One', cursive, sans-serif;
+    padding-bottom: 60px;
+    color: white;
+}
+
+
+/* Main */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+
+
+body {
+  background: url(../img/guitar.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Header */
+
+.page-header {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h2, h4 {
+  color: #d3d3d3;
+}
+
+h3 {
+  padding-bottom: 30px;
+}
+
+/* Main Content */
+
+.song-container {
+  padding: 30px 40px;
+  font-size: 1.3em;
+}
+
+
+
+/* Footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #d3d3d3;
+  height: 60px;
+  background-color: #000;
+
+}
+
+.footer-paragraph {
+  margin: 0 auto;
+  padding: 10px 10px;
+  font-size: 1em;
+}
