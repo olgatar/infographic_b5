@@ -27,16 +27,16 @@ $("li").on("click", function() {
   var chordD = document.getElementById('audioD');
       chordD.preload = "auto";
 
-  if ($(this).is("#G")) {
+  if ($(this).is(".G")) {
     chordG.play();
   }
-  else if ($(this).is("#C")) {
+  else if ($(this).is(".C")) {
     chordC.play();
   }
-  else if ($(this).is("#Em")) {
+  else if ($(this).is(".Em")) {
     chordEm.play();
   }
-  else if ($(this).is("#D")) {
+  else if ($(this).is(".D")) {
     chordD.play();
   }
 });
